@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="SystemLogPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\</Value>
+    </Setting>
+    <Setting Name="SystemLogFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SystemLog</Value>
+    </Setting>
+    <Setting Name="SystemLogFileTerm" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ErrorLogFlg" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="EventLogFlg" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="TraceLogFlg" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="DebugLogFlg" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MailSmtp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mail.systemthink.co.jp</Value>
+    </Setting>
+    <Setting Name="MailFrom" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">y.kawate@systemthink.co.jp</Value>
+    </Setting>
+    <Setting Name="MailFromName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">システム管理者</Value>
+    </Setting>
+    <Setting Name="SmtpAuth" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SmtpUserId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SmtpPass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DbString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User Id=STD_TESTADMIN; Password=STD_TESTADMIN; Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.53.243)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=dev018)))</Value>
+    </Setting>
+    <Setting Name="SqlLogFlg" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LogOutputLevel" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
